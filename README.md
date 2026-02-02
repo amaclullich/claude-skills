@@ -39,6 +39,23 @@ PowerPoint creation, editing, and analysis. Work with .pptx files for creating, 
 - Extract text and images
 - Work with layouts and themes
 
+### `meme-maker`
+Medical education meme generation system using rhetorical pattern matching. Designed for delirium awareness but adaptable to other health education topics.
+
+**Features:**
+- 30 rhetorical patterns mapped to 386 templates
+- 5 voice profiles for behaviour change
+- 124 content sources (facts, pain points)
+- CSV export for Canva bulk creation
+- Performance analytics tracking
+
+**Quick commands:**
+- `/quick-meme [fact]` - Generate single meme
+- `/batch-memes [count]` - Generate multiple with variety
+- `/find-templates [pattern]` - Find templates by pattern number
+- `/validate-meme [text]` - Check clinical accuracy
+- `/export-canva` - Format for Canva bulk create
+
 ## Installation
 
 Symlink or copy the skills directory to your Claude Code configuration:
